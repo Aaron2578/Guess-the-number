@@ -23,9 +23,9 @@ function Body() {
     alert(`welcome ${value} ${randNumber}`);
     setValue("");
     if (randNumber === value) {
-      return alert("You Won! Keep Rocking!");
+      return alert("Correct Guess. Keep Rocking!");
     }
-    return alert("You Lose!");
+    return alert("Wrong Guess, Try Again");
   };
   function handleCount() {
     setCount((prev) => (prev > 0 ? prev - 1 : prev));

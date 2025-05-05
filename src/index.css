@@ -58,7 +58,7 @@ label {
 }
 @media only screen and (max-width: 900px) {
   .body {
-    background: #d8b6b6;
+    /* background: #d8b6b6; */
     width: 90%;
     margin: 40px auto;
   }
