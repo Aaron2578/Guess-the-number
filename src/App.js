@@ -20,7 +20,6 @@ function Body() {
     e.preventDefault();
     if (count <= 0) return;
     const randNumber = Math.floor(Math.random() * 10 + 1);
-    alert(`welcome ${value} ${randNumber}`);
     setValue("");
     if (randNumber === value) {
       return alert("Correct Guess. Keep Rocking!");
