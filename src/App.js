@@ -42,7 +42,7 @@ function Body() {
         </label>
         <input type="submit" onClick={handleCount} />
       </form>
-      <h3>You have {count} change. Well Done !</h3>
+      <h4>You have {count} change. Well Done !</h4>
     </div>
   );
 }
